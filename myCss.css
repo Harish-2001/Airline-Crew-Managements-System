@@ -1,0 +1,134 @@
+/*body background*/
+.main-body {
+    background-image: url(doge21.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  
+  /*header*/
+  .navbar .navbar-default {
+    width: 100%;
+  }
+  
+  img {
+    width: 5rem;
+    height: 4rem;
+    margin-left: 1.5rem;
+  }
+ 
+  nav .navbar-nav {
+  
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  nav .navbar-nav a {
+    color: black;
+  }
+  nav .navbar-nav .active {
+    text-decoration: underline;
+    margin-bottom: 1.3rem;
+  }
+  table {
+    margin-left: 2.2%;
+    width: 95.5%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    color: white;
+  }
+  
+  tr {
+    border: 1px solid #e0ebeb;
+  }
+  
+  th {
+    background-color: #cce6ff;
+    color: black;
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  
+  
+  #sno, #id, #emailid, #actions, #status, #name {
+    padding-left: 2rem;
+  }
+
+  /*form container*/
+  .border-class {
+    width: 40%;
+    float: left;
+    margin: 5% 6.5%;
+    margin-bottom: 2.8%;
+    border: 0.5rem solid #99ccff;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.966);
+    opacity: 95%;
+    padding: 1.5%;
+    padding-bottom: 4rem;
+  }
+  .border-class .text-light {
+    border-radius: 3rem;
+    color: #0a2c5f;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+  .border-class label {
+    padding-top: 1.5rem;
+    color: black;
+    font-size: 1.8rem;
+  }
+  .border-class .form-check-label {
+    padding-top: 0.1rem;
+    font-size: 1.8rem;
+    margin-left: -1rem;
+  }
+  .border-class .btn-success, .border-class .btn-info {
+    margin-top: 2rem;
+    color: black;
+  }
+  .border-class .btn-info {
+    margin-left: 1rem;
+  }
+  a{
+      margin-left: 1.5rem;
+  }
+  .border-class input[type=text], .border-class input[type=email], .border-class input[type=number] {
+    background-color: white;
+  }
+  .border-class .relocate {
+    margin-left: 2%;
+    margin-top: -1rem;
+  }
+  
+  /*footer*/
+  footer {
+    margin-top: 4.5%;
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.959);
+    width: 100%;
+  }
+  footer .footer-text {
+    font-size: 1.8rem;
+  }
+  footer .text-reset {
+    font-size: 3rem;
+  }
+  
+  
+  
+  /*media query*/
+  @media screen and (max-width: 810px) {
+    .nav a {
+      font-size: 1.7rem;
+    }
+  
+    .btn-success, .border-class .btn-info {
+      width: 94%;
+      margin-left: 0.01rem;
+    }
+  
+    img {
+      margin-left: -0.5rem;
+      margin-top: -0.5rem;
+    }
+  }
